@@ -98,14 +98,14 @@ a {
 
 section {
     clear: both;
-    width: 650px;
+    width: 648px;
     border: 1px solid #dddddd;
     float: left;
     background-color: #ffffff;
 }
 
 aside {
-    width: 270px;
+    width: 268px;
     float: right;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -171,14 +171,14 @@ p {
 #gitHub {
     align-self: auto;
     padding: 0;
-    padding-right: 19px;
+    padding-right: 18px;
     padding-bottom: 40px;
 }
 
 #linkedIn {
     align-self: auto;
     padding: 0;
-    padding-right: 19px;
+    padding-right: 18px;
     padding-bottom: 40px;
 }
 
