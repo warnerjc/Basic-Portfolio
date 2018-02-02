@@ -1,9 +1,9 @@
 html {
     height: 100%;
+    background-image: url("../images/body-spiration-light.png");
 }
 
 body {
-    background-image: url("../images/body-spiration-light.png");
     display: flex;
     flex-direction: column;
     height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
@@ -44,6 +44,13 @@ h2 {
     padding: 20px;
     color: #4aaaa5;
     font-weight: bold;    
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 20px;    
 }
 
 hr {
@@ -189,5 +196,27 @@ p {
 }
 
 .portImg {
-    padding-bottom: 40px;
+    padding: 0;
+    margin: 0;
 }
+
+.portContent {
+    position: relative;
+    padding: 0;
+    margin: 0px 20px 40px 20px;
+    float: left;
+}
+
+.portText {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10px;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    width: 284px;  
+    text-align: center;
+}
+
