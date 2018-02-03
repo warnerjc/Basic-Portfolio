@@ -68,7 +68,7 @@ hr {
 }
 
 
-#jasonWarner {
+#fullName {
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
@@ -80,13 +80,18 @@ hr {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 4em;
 }
 
 a {
     color: #777777;
     text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 #index {
@@ -101,6 +106,11 @@ a {
 #contact {
     margin-right: 0px;
     margin-left: 10px;
+}
+
+#gitHub:hover, #linkedIn:hover, #stackOverflow:hover {
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 section {
@@ -142,7 +152,7 @@ img {
     margin: 0;
     text-align: center;
     color: #ffffff;
-    size: .75em;
+    font-size: .75em;
 }
 
 #mainContent {
@@ -162,6 +172,8 @@ p {
     color: #777777;
     font-size: 1em;
     line-height: 2.0em;
+    position: relative;
+    top: -8px;
 }
 
 #navConnect{
@@ -219,4 +231,69 @@ p {
     width: 284px;  
     text-align: center;
 }
+
+form, input, select, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size   : 1em;
+    color: #777777;
+  }
+
+  #contactFormText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .formText {
+    font-size: 0.8em;
+    padding: 10px;
+    width: 586px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    outline: none;
+  }
+
+  .formText:focus, .messageText:focus {
+    border: 2px solid #4aaaa5;
+  }
+
+  textarea {
+    height: 150px;
+    width: 603px;
+    margin-top: 5px;
+  }
+
+  .messageText {
+    font-size: 0.8em;
+    padding: 10px;
+    width: 586px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    outline: none;     
+  }
+
+  #contactSubmit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+    border: 0;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  #contactSubmit:hover {
+      background-color: #ffffff;
+      color: #4aaaa5;
+      border: 2px solid #4aaaa5;
+      padding: 8px 28px 8px 28px;
+  }
+
+  #submitCont {
+      margin-bottom: 40px;
+  }
+
+
+
 

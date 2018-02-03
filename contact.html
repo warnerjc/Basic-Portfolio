@@ -22,7 +22,7 @@
     <body>
         <header>
            <div id="headerContent">
-               <h1 id="jasonWarner">Jason Warner</h1>
+               <h1 id="fullName">Jason Warner</h1>
   
                <nav id="navMain">
                    <a id="index" href="index.html">About</a> |   
@@ -38,14 +38,18 @@
                     <h1>Contact</h1>
                     <hr>
                     
-                    <form id="contactFormText"> <!-- action="#" target="_self"  method="post" -->
-                        Name<br>
-                        <input type="text" name="name"><br><br>
-                        Email<br>
-                        <input type="text" name="email"><br><br>
-                        Message<br>
-                        <input type="text" name="message"><br><br>
-                        <input type="submit" value="Submit">
+                    <form  action="#" target="_self"  method="post">
+                        <div id="contactFormText">
+                            Name<br>
+                            <input class="formText" type="text" name="name" placeholder="Jason Warner"><br>
+                            Email<br>
+                            <input class="formText" type="text" name="email" placeholder="example@gmail.com"><br>
+                            Message<br>
+                            <textarea class="messageText" name="message" placeholder="Write your message here."></textarea>
+                        </div>
+                        <div id="submitCont">
+                            <input id="contactSubmit" type="submit" value="Submit">
+                        </div>
                     </form>
 
                     
@@ -55,9 +59,9 @@
                     <hr>
 
                     <nav id="navConnect">
-                        <a href="#"><img id="gitHub" src="assets/images/gitHub.png" alt="GitHub Connect" /></a>
-                        <a href="#"><img id="linkedIn" src="assets/images/linkedIn.png" alt="LinkedIn Connect" /></a>
-                        <a href="#"><img id="stackOverflow" src="assets/images/stackOverflow.png" alt="Stack Overflow Connect" /></a>                
+                        <a href="https://github.com/warnerjc"><img id="gitHub" src="assets/images/gitHub.png" alt="GitHub Connect" /></a>
+                        <a href="https://www.linkedin.com/in/warnerjc/"><img id="linkedIn" src="assets/images/linkedIn.png" alt="LinkedIn Connect" /></a>
+                        <a href="https://stackoverflow.com/users/9086083/jason-warner"><img id="stackOverflow" src="assets/images/stackOverflow.png" alt="Stack Overflow Connect" /></a>                  
                     </nav>
                 </aside>
             </div>
